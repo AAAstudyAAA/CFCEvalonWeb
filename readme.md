@@ -1,1 +1,1 @@
-https://aaaistudy.github.io/AAAI25_website/
+https://aaaistudy.github.io/AAAI25
