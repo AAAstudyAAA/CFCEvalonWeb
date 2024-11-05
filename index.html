@@ -41,7 +41,80 @@
 					<li><a href="#metric">D: Evaluaiton Metric</a></li>
 					<li><a href="#Experiment">E: Experiments</a></li>
 					<li><a href="#Ablataion">Ablataion</a></li>
+					<li><a href="#Limitation">Limitation (To Do)</a></li>
 
+				</ul>
+			</li>
+		</ul>
+	</nav>
+
+	<nav>
+		<ul>
+			<li>
+				<a href="#improvments">To Do List for Improvements</a>
+				<ul>
+					<li>
+						1. Reorganize for Clarity:
+						• Introduce Definitions Earlier: Move the ”Setup and Definitions” section before the criteria are discussed to provide readers with the necessary context.
+						• Consolidate Redundant Sections: Merge repeated explanations to streamline the paper and reduce confusion.
+
+					</li>
+					<li>
+						2. Provide Detailed Justification for ELRM Hyperparameters:
+						• Expand on the Ablation Study: Include a more comprehensive ablation study in the main text, showing how different hyperparameter values affect the metric’s performance.
+						• Rationale for Weighting Functions: Explain why clipped exponential functions were chosen and how they impact the sensitivity and robustness of ELRM.
+
+					</li>
+					<li>
+						3. Enhance Comparative Analysis with Existing Metrics:
+						• Statistical Testing: Perform statistical significance tests to support claims about ELRM’s performance compared to other metrics.
+						• Case Studies: Provide examples where traditional metrics fail to capture relevant security fixes that ELRM detects, possibly with code snippets illustrating these cases.
+
+
+					</li>
+					<li>
+						4. Proofread and Correct Errors:
+						• Professional Editing: Thoroughly proofread the paper or have it reviewed by a profes- sional editor to correct grammatical errors and typos.
+						• Consistency in Terminology and Formatting: Ensure consistent use of terms (e.g., ”CFCEval,” ”ELRM”) and correct formatting throughout the paper.
+
+
+					</li>
+					<li>
+						5. Discuss Generalizability to Other Languages:
+						• Applicability Beyond Python: Address how the framework and metrics could be adapted for other programming languages. Discuss potential challenges and necessary modifications.
+						• Consider Multilingual Experiments: If feasible, include experiments with code in other languages to demonstrate the framework’s versatility.
+
+					</li>
+					<li>
+						6. Improve Reproducibility:
+						• Provide Working Links: Ensure that all links to code and datasets are functional. If the resources are not yet available, indicate when they will be or provide contact information for access.
+						• Detailed Methodology: Include comprehensive details about the experimental setup, such as model configurations, versions, and any preprocessing steps, to enable replication.
+						
+					</li>
+					<li>
+						7. Diversify Validation Tools:
+						• Use Multiple Static Analysis Tools: Incorporate other tools (e.g., SonarQube, ESLint for JavaScript) to validate the findings and reduce dependence on CodeQL.
+						• Discuss Limitations of CodeQL: Acknowledge potential shortcomings of CodeQL and how they might affect the results.
+						
+					</li>
+					<li>
+						8. Include a Limitations and Future Work Section:
+						• Acknowledge Limitations: Discuss any limitations of the framework, such as potential biases in the dataset or challenges with the evaluation metrics.
+						• Outline Future Research Directions: Provide specific areas for future work, such as expanding the dataset, exploring other types of vulnerabilities, or improving the ELRM.
+
+					</li>
+					<li>
+						9.Enhance Presentation of Experimental Results:
+						• Visualizations: Include graphs or charts (e.g., bar charts, ROC curves) to visually rep- resent the performance differences between models and metrics.
+						• Detailed Tables: Provide comprehensive tables with clear labels, including the number of instances evaluated, exact scores, and relevant statistical measures.
+						
+					</li>
+					<li>
+						10.Broader Impact Discussion:
+						• Industry Implications: Discuss how CFCEval and ELRM can influence the development of safer AI coding assistants and their adoption in industry practices.
+						• Ethical Considerations: Address ethical implications of deploying AI models in code generation, especially concerning security vulnerabilities.
+						
+					</li>
 				</ul>
 			</li>
 		</ul>
