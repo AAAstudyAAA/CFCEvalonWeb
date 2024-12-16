@@ -1,1 +1,1 @@
-https://aaaistudy.github.io/AAAI25
+https://aaaistudy.github.io/CFCEvalonWeb/
