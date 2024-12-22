@@ -26,7 +26,6 @@
 				<li><a href="#reproduce">Reproduce Steps</a></li>
 				<li><a href="https://pypi.org/project/ELRM/1.0/">pip install (Working) </a></li>
 				<li><a href="https://aaaistudy.github.io/AAAI25/">Project homepage</a></li>
-				<li><a href="https://aaaistudy.github.io/AAAI25/">Project homepage</a></li>
 				<li><a href="https://github.com/AAAIstudy/AAAI25_reproduce">GitHub repo</a></li>
 			</ul>
 		</nav>
@@ -43,7 +42,7 @@
 					<li><a href="#Experiment">E: Experiments</a></li>
 					<li><a href="#Ablataion">Ablataion</a></li>
 					<li><a href="#Limitation">Limitation (To Do)</a></li>
-					<li><a href="#Limitation">Limitation (To Do)</a></li>
+
 				</ul>
 			</li>
 		</ul>
@@ -54,68 +53,101 @@
 			<li>
 				<a href="#improvments">To Do List for Improvements</a>
 				<ul>
-					<li>
+					Technical Appendix Contents
+					A Evaluation Framework 
+					(1) Programming Language Quality . . . . . . .
+					(2) Fix Capability . . . . . . . . . . . . . . . . .
+					(3) Post Transformation Fix Capability . . . . . 
+					(4) Element Level Relevance Evaluation . . . . . 
+					B Element-Level Relevance Metric 
+					Evaluate with Accuracy . . . . . . . . . . . . . . 
+					C Dataset 3
+					(1) Code Transformation . . . . . . . . . . . . . 
+					(2) Prompt Creation . . . . . . . . . . . . . . . 
+					(3) The effects of different endings in the prompts 
+					D Evaluation Metric 4
+					E Evaluation Experiments 5
+					(1) Hyperparameter Values . . . . . . . . . . . .
+					(2) Evaluation Framework and Metric Analysis .
+					(3) Ablation Analysis . . . . . . . . . . . . . . .
+					F The Results of GPT3.5-Based Metrics 9
+					G Related Work 10
+					(1) Large Language Models for Code . . . . . . . 
+					(2) Evaluation on Code Generation . . . . . . . . 
+					H Limitation 10
+					I Future Work 10
+					J Impact Discussion 10
+					K Steps to Reproduce Results: 
+					Main Steps: . . . . . . . . . . . . . . . . . . . . 
+					1. Building Benchmark TFPy4LLM . . . . . . . 
+					2. Generating code with Code LLMs . . . . . . . 
+					3. Running created CodeQL queries . . . . . . . 
+					4. Creating prompts for GPT3.5-based metrics and
+					collecting responses . . . . . . . . . . . . . 
+					5. Evaluation Process . . 
+
+					<!-- <li>
 						1. Reorganize for Clarity:
 						• Introduce Definitions Earlier: Move the ”Setup and Definitions” section before the criteria are discussed to provide readers with the necessary context.
 						• Consolidate Redundant Sections: Merge repeated explanations to streamline the paper and reduce confusion.
 
-					</li>
-					<li>
+					</li> -->
+					<!-- <li>
 						2. Provide Detailed Justification for ELRM Hyperparameters:
 						• Expand on the Ablation Study: Include a more comprehensive ablation study in the main text, showing how different hyperparameter values affect the metric’s performance.
 						• Rationale for Weighting Functions: Explain why clipped exponential functions were chosen and how they impact the sensitivity and robustness of ELRM.
 
-					</li>
-					<li>
+					</li> -->
+					<!-- <li>
 						3. Enhance Comparative Analysis with Existing Metrics:
 						• Statistical Testing: Perform statistical significance tests to support claims about ELRM’s performance compared to other metrics.
 						• Case Studies: Provide examples where traditional metrics fail to capture relevant security fixes that ELRM detects, possibly with code snippets illustrating these cases.
 
 
-					</li>
-					<li>
+					</li> -->
+					<!-- <li>
 						4. Proofread and Correct Errors:
 						• Professional Editing: Thoroughly proofread the paper or have it reviewed by a profes- sional editor to correct grammatical errors and typos.
 						• Consistency in Terminology and Formatting: Ensure consistent use of terms (e.g., ”CFCEval,” ”ELRM”) and correct formatting throughout the paper.
 
 
-					</li>
-					<li>
+					</li> -->
+					<!-- <li>
 						5. Discuss Generalizability to Other Languages:
 						• Applicability Beyond Python: Address how the framework and metrics could be adapted for other programming languages. Discuss potential challenges and necessary modifications.
 						• Consider Multilingual Experiments: If feasible, include experiments with code in other languages to demonstrate the framework’s versatility.
 
-					</li>
-					<li>
+					</li> -->
+					<!-- <li>
 						6. Improve Reproducibility:
 						• Provide Working Links: Ensure that all links to code and datasets are functional. If the resources are not yet available, indicate when they will be or provide contact information for access.
 						• Detailed Methodology: Include comprehensive details about the experimental setup, such as model configurations, versions, and any preprocessing steps, to enable replication.
 						
-					</li>
-					<li>
+					</li> -->
+					<!-- <li>
 						7. Diversify Validation Tools:
 						• Use Multiple Static Analysis Tools: Incorporate other tools (e.g., SonarQube, ESLint for JavaScript) to validate the findings and reduce dependence on CodeQL.
 						• Discuss Limitations of CodeQL: Acknowledge potential shortcomings of CodeQL and how they might affect the results.
 						
-					</li>
-					<li>
+					</li> -->
+					<!-- <li>
 						8. Include a Limitations and Future Work Section:
 						• Acknowledge Limitations: Discuss any limitations of the framework, such as potential biases in the dataset or challenges with the evaluation metrics.
 						• Outline Future Research Directions: Provide specific areas for future work, such as expanding the dataset, exploring other types of vulnerabilities, or improving the ELRM.
 
-					</li>
-					<li>
+					</li> -->
+					<!-- <li>
 						9.Enhance Presentation of Experimental Results:
 						• Visualizations: Include graphs or charts (e.g., bar charts, ROC curves) to visually rep- resent the performance differences between models and metrics.
 						• Detailed Tables: Provide comprehensive tables with clear labels, including the number of instances evaluated, exact scores, and relevant statistical measures.
 						
-					</li>
-					<li>
+					</li> -->
+					<!-- <li>
 						10.Broader Impact Discussion:
 						• Industry Implications: Discuss how CFCEval and ELRM can influence the development of safer AI coding assistants and their adoption in industry practices.
 						• Ethical Considerations: Address ethical implications of deploying AI models in code generation, especially concerning security vulnerabilities.
 						
-					</li>
+					</li> -->
 				</ul>
 			</li>
 		</ul>
